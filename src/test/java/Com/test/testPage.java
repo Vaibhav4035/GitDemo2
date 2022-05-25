@@ -29,6 +29,8 @@ public class testPage extends BaseClass {
 		login.enterusername(utility.getTestData(0, 0));
 		login.enterpassword(utility.getTestData(0, 1));
 		login.clicktoLogin();
+		
+		System.out.println("GitHub statement add this project");
 	   
 	}
 	
